@@ -44,7 +44,7 @@ public class VendacrmApiApplicationTests {
 		assertEquals(3,vendedorService.findAll().size());	
 	}
 	
-	//teste cadastro de vendedores
+	//teste cadastro de vendedoress
 	@Test
 	public void cadastrarVendedorTest(){
 		Vendedor vendedor = new Vendedor(1L,"Victor");
